@@ -56,6 +56,8 @@ Whatever contribution is welcomed (may it be constructive criticism, feedbacks, 
 
 ### Further Features
 
+Features that I will be working on in the near future.
+
 1. Asynchronous sharding
 2. Scheduled sharding
 
