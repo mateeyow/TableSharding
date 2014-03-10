@@ -16,6 +16,7 @@ CREATE TABLE IF NOT EXISTS `shardtable` (
   `columnName` varchar(255) NOT NULL,
   `count` int(11) NOT NULL,
   `dateSharded` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  `lastPK` int(11) NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
 ```
