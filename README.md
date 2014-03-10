@@ -11,12 +11,12 @@ A Yii extension that horizontally partitions large tables for easy searching and
 
 <b>Table Schema</b>:
 ```bash
-CREATE TABLE IF NOT EXISTS 'shardtable' (
-  'id' int(11) NOT NULL AUTO_INCREMENT,
-  'columnName' varchar(255) NOT NULL,
-  'count' int(11) NOT NULL,
-  'dateSharded' timestamp NULL DEFAULT CURRENT_TIMESTAMP,
-  PRIMARY KEY ('id')
+CREATE TABLE IF NOT EXISTS `shardtable` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `columnName` varchar(255) NOT NULL,
+  `count` int(11) NOT NULL,
+  `dateSharded` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
 ```
 
