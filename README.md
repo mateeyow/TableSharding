@@ -42,7 +42,7 @@ public function tableName()
    * $tablename refers to the table you want to shard
    * $limit refers to the max row of your table
    */
-  $var = new Sharding('$tablename',$limit);
+  $shard = new Sharding('$tablename',$limit);
   return $shard->useTable();
 }
 ```
